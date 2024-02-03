@@ -14,7 +14,8 @@
         android:text="I Love Android"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/switchOn"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:text="Switch"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="49dp" />
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonPressMe"
@@ -30,7 +32,8 @@
         android:layout_height="wrap_content"
         android:text="Press Me"
         tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -38,7 +41,8 @@
         android:layout_height="wrap_content"
         android:text="CheckBox"
         tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="181dp" />
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -46,7 +50,8 @@
         android:layout_height="113dp"
         app:srcCompat="@drawable/american_flag_small"
         tools:layout_editor_absoluteX="198dp"
-        tools:layout_editor_absoluteY="2dp" />
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText"
@@ -56,7 +61,7 @@
         android:inputType="text"
         android:text="I love Android"
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="240dp" />
-
+        tools:layout_editor_absoluteY="240dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
