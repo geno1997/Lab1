@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
                 // Set the text to the TextView
                 textView.setText(newText);
-                showToast(getString(R.string.Toast));
+               showToast(getString(R.string.Toast));
+               ;
             }
         });
     }
