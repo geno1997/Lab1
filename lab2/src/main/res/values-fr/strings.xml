@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="Toast">la libelle a ete mis a jour</string>
     <string name="app_name">La libelle a ete mis a jour</string>
+    <string name="TextView" tools:ignore="ExtraTranslation">J\aime le Android</string>
+    <string name="ButtonPressMe" tools:ignore="ExtraTranslation">Pese moi</string>
+    <string name="Edittext" tools:ignore="ExtraTranslation">Nom</string>
+    <string name="checkBox" tools:ignore="ExtraTranslation">boite de check</string>
 </resources>
